@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Open+Sans:wght@400;500&family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{  color:rgba(0 0 0 / 50%);
+    font-weight: bolder;
+    font-size:larger;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;  
+   
+}
+body{
+    background-image: url(cover2.jpg);
+    background-size:cover;
+    /* background-repeat: no-repeat; */
+}
+
+.container{
+    max-width:900px;
+    margin:0 auto;
+  
+}
+.apply_box{
+    background-color: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+/* -backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px); */
+border: 1px solid rgba(255, 255, 255, 0.3);
+    /* background-image: url(./assets/try.png); */
+    opacity:0.75;
+    background-size: cover;
+    background-position:center;
+    max-width:600px;
+    padding:20px;
+    /* background-color: beige; */
+    color:black;
+    margin:0 auto;
+    margin-top:50px;
+    /* box-shadow:4px 3px 5px rgba(1,1,1,0.1);
+    border-radius:10px; */
+ 
+    
+}
+.form_control textarea{
+    max-width:500px;
+}
+.form_container{
+    margin-top:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+
+}
+.form_control{display:flex;
+flex-direction:column;
+}
+label{
+    font-size:20px;
+    margin-bottom:5px;
+
+}
+input,select,textarea{
+    padding-block:6px;
+    padding-inline:10px;
+    border: 1px solid grey;
+    border-radius:8px;
+    font-size:15px;
+    color:#fff;
+    outline-color:red;
+
+}
+
+
+option{background-color: black;
+    color:white;
+
+}
+
+.button_container{
+    font-size:medium;
+    display:flex;
+    justify-content:flex-end;
+    margin-top:20px;
+
+}
+button{
+    background-color:red;
+    border:transparent solid 2px; 
+    padding:5px 10px;
+    color:white;
+    border-radius:7.5px;
+    transition: 0.3s ease-out;
+}
+button:hover{
+    background-color:grey;
+    color:black;
+    transition: 0.3s ease-out;
+    cursor:pointer;
+}
+.apply_box h1{
+    
+text-shadow: 4px 4px #a6a4a4;}
+
+.heads{
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+}
+.sign{height:20px;
+width: auto;}
